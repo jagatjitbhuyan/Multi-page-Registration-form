@@ -1,0 +1,55 @@
+form {
+  width: 45%; /* set the width of the form */
+  margin: 2% auto; /* center the form on the page */
+  padding: 30px; /* add some padding to the form */
+  background-color: rgb(206, 234, 243); /* set a background color for the form */
+  position: relative;
+  color: rgb(29, 11, 184);
+}
+
+label {
+  font-size: 16px; /* set the font size for the labels */
+  font-weight: bold; /* make the labels bold */
+  margin-bottom: 40px; /* add some margin to the bottom of the labels */
+  
+ 
+}
+
+input[type="text"], input[type="date"], input[type="email"], input[type="tel"] {
+  width: 48%; /* make the input fields take up the full width of the form */
+  padding: 12px 20px; /* add some padding to the input fields */
+  margin: 8px 0; /* add some margin to the input fields */
+  box-sizing: border-box; /* include the padding and margin in the total width of the input fields */
+  border: 1px solid #ccc; /* add a border to the input fields */
+  border-radius: 4px; /* round the corners of the input fields */
+  
+}
+
+input[type="radio"] {
+  margin-right: 10px; /* add some margin to the right of the radio buttons */
+}
+
+input[type="submit"] {
+  width: 100%; /* make the submit button take up the full width of the form */
+  background-color: #4CAF50; /* set a background color for the submit button */
+  color: white; /* set the text color for the submit button */
+  padding: 14px 20px; /* add some padding to the submit button */
+  margin: 8px 0; /* add some margin to the submit button */
+  border: none; /* remove the border from the submit button */
+  border-radius: 4px; /* round the corners of the submit button */
+  cursor: pointer; /* make the submit button look like a button */
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049; /* change the background color of the submit button on hover */
+}
+#country{
+  width: 97%; /* set the width of the form */
+  margin: 2% auto; /* center the form on the page */
+  padding: 14px;
+  border: none;
+}
+.required::after{
+  content:" *";
+  color: red;
+}

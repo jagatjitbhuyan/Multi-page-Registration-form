@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style2.css">
+  <title>Educational details</title>
+</head>
+
+<body>
+  <form action="page3.html" onsubmit="return validateForm()">
+    <label for="hscInstitution">HSC Institution name:</label>
+    <input type="text" id="hscInstitution" name="hscInstitution" required><br>
+
+    <label class="required" for="hscBoard">HSC Board</label>
+    <select id="sscBoard" name="sscBoard">
+      <option>select option</option>
+      <option>CBSC</option>
+      <option>ICSC</option>
+      <option>State board</option>
+    </select><br><br>
+
+    <label class="required" for="hscScore">Score in HSC in percentage</label><br>
+    <input type="number" step="any" id="hscScore" name="hscScore" required><br><br>
+
+    <label class="required" for="sscInstitution">SSC Institution name</label>
+    <input type="text" id="sscInstitution" name="sscInstitution" required><br>
+
+    <label class="required" for="sscBoard">SSC Board</label>
+    <select id="sscBoard" name="sscBoard">
+      <option>select option</option>
+      <option>CBSC</option>
+      <option>ICSC</option>
+      <option>State board</option>
+    </select><br><br>
+
+    <label class="required" for="sscScore">Score in SSC in percentage</label>
+    <input type="number" step="any" id="sscScore" name="sscScore" required><br>
+
+    <label class="required" for="currentlyPursuing">Currently pursuing</label>
+    <input type="text" id="currentlyPursuing" name="currentlyPursuing" required><br>
+
+    <label class="required" for="currentInstitution">Current educational institution name</label>
+    <input type="text" id="currentInstitution" name="currentInstitution" required><br>
+
+    <label class="required" for="overallPercentage">Overall percentage</label>
+    <input type="number" step="any" id="overallPercentage" name="overallPercentage" required><br>
+
+    <label class="required" for="backlogs">Current backlogs if any</label>
+    <input type="text" id="backlogs" name="backlogs"><br>
+
+    <input type="submit" value="Submit" onclick="test()">
+  </form>
+</body>
+<script src="script2.js"></script>
+
+</html>

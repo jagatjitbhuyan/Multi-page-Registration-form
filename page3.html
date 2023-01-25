@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style3.css">
+  <script src="script3.js"></script>
+  <title>Document Upload</title>
+</head>
+
+<body>
+  <form action="page4.html">
+    <label class="required" for="photo">Recent passport size photograph:</label>
+    <input type="file" id="photo" name="photo" accept="image/*" maxsize="4194304" required>
+    <br>
+    <label class="required" for="hsc">HSC mark sheet:</label>
+    <input type="file" id="hsc" name="hsc" accept=".pdf, .doc, .docx, image/*" maxsize="4194304" required>
+    <br>
+    <label class="required" for="ssc">SSC mark sheet:</label>
+    <input type="file" id="ssc" name="ssc" accept=".pdf, .doc, .docx, image/*" maxsize="4194304" required>
+    <br>
+    <label class="required" for="semesters">All semesters mark sheet:</label>
+    <input type="file" id="semesters" name="semesters" accept=".pdf, .doc, .docx" maxsize="10485760" required>
+    <br>
+    <input type="submit" value="Submit" onclick="test()">
+  </form>
+</body>
+
+</html>
